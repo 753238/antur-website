@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    background-color: #08a9f4;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+
+.logo-box img,
+.logo-img {
+    width: 140px;
+}
+
+.nav-box {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-box a {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.nav-box a:hover,
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    border: 2px solid black;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0);
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 10px;
+}
+
+
+
+.hero-box {
+    width: 100%;
+    text-align: center;
+}
+
+.hero-box img {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.hero-box {
+    margin-top: 20px;
+}
+
+.grey-button {
+    background-color: #d9d9d9;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: black;
+}
+
+.small-button {
+    background-color: #d9d9d9;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 6px;
+    margin-top: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+
+
+.text-box,
+.activity-text,
+.faq-box {
+    background-color: #4fc3f7;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.text-box h2,
+.faq-box h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.text-box p {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+
+
+.activity-card {
+    padding: 10px;
+}
+
+.activity-card img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.activities-image {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.activity-section {
+    margin-bottom: 50px;
+}
+
+.activity-text h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.activity-text h4 {
+    margin-bottom: 20px;
+}
+
+
+
+.location-image {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.location-section {
+    margin-bottom: 50px;
+}
+
+
+
+.heritage-image {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -90px;
+}
+
+.heritage-section {
+    margin-bottom: 50px;
+}
+
+.phrase-table {
+    background-color: #4fc3f7;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.phrase-table table {
+    width: 100%;
+}
+
+.phrase-table th,
+.phrase-table td {
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+
+
+
+.contact-form-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.form-line {
+    border-bottom: 2px solid black;
+    margin-bottom: 25px;
+    padding-bottom: 8px;
+}
+
+.faq-box h4 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .container-fluid {
+        padding: 10px;
+    }
+
+    .logo-box,
+    .navbar-brand {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .logo-box img,
+    .logo-img {
+        width: 120px;
+    }
+
+    .nav-box,
+    .nav-link {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .nav-box a {
+        display: block;
+        margin: 8px;
+    }
+
+    .hero-box {
+        height: auto;
+    }
+
+    .hero-box img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    .activity-card img,
+    .activities-image,
+    .location-image,
+    .heritage-image {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+
+    .text-box,
+    .activity-text,
+    .faq-box,
+    .phrase-table,
+    .contact-form-box {
+        padding: 18px;
+        margin-top: 10px;
+    }
+
+    .text-box h2,
+    .faq-box h2 {
+        font-size: 26px;
+    }
+
+    .text-box p,
+    .activity-text p,
+    .faq-box p {
+        font-size: 18px;
+    }
+
+    .grey-button,
+    .small-button {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
